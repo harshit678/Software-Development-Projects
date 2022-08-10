@@ -1,0 +1,85 @@
+SENG 265 -- SUMMER 2022
+ASSIGNMENT #3 EVALUATION
+========================
+
+Student name:   Harshit Handa
+Student netlink id:  harshithanda
+
+-----
+(1) Files submitted to the correct folder and named appropriately; compiles
+without errors or warnings.
+
+- Yes, the submitted files are correct, and the code
+  compiles and runs successfully without errors or warnings.
+
+-----
+(2) Tests passed (and further comments)
+
+-----------------------------------------------------------------------------------------
+[./run.py (INFO)]: Deleting output.csv in case it exists...
+[./run.py (INFO)]: Attempting to execute "./song_analyzer --sortBy=popularity --display=10 --files=top_songs_1999.csv"...
+[./run.py (INFO)]: Attempting to execute "./tester.py test01.csv"...
+[./tester.py]: TEST PASSED
+-----------------------------------------------------------------------------------------
+[./run.py (INFO)]: Deleting output.csv in case it exists...
+[./run.py (INFO)]: Attempting to execute "./song_analyzer --sortBy=energy --display=5 --files=top_songs_1999.csv"...
+[./run.py (INFO)]: Attempting to execute "./tester.py test02.csv"...
+[./tester.py]: TEST PASSED
+-----------------------------------------------------------------------------------------
+[./run.py (INFO)]: Deleting output.csv in case it exists...
+[./run.py (INFO)]: Attempting to execute "./song_analyzer --sortBy=danceability --display=3 --files=top_songs_1999.csv"...
+[./run.py (INFO)]: Attempting to execute "./tester.py test03.csv"...
+[./tester.py]: TEST PASSED
+-----------------------------------------------------------------------------------------
+[./run.py (INFO)]: Deleting output.csv in case it exists...
+[./run.py (INFO)]: Attempting to execute "./song_analyzer --sortBy=popularity --display=3 --files=top_songs_2009.csv"...
+[./run.py (INFO)]: Attempting to execute "./tester.py test04.csv"...
+[./tester.py]: TEST PASSED
+-----------------------------------------------------------------------------------------
+[./run.py (INFO)]: Deleting output.csv in case it exists...
+[./run.py (INFO)]: Attempting to execute "./song_analyzer --sortBy=danceability --display=5 --files=top_songs_2019.csv"...
+[./run.py (INFO)]: Attempting to execute "./tester.py test05.csv"...
+[./tester.py]: TEST PASSED
+-----------------------------------------------------------------------------------------
+[./run.py (INFO)]: Deleting output.csv in case it exists...
+[./run.py (INFO)]: Attempting to execute "./song_analyzer --sortBy=energy --display=5 --files=top_songs_1999.csv,top_songs_2009.csv"...
+Segmentation fault (core dumped)
+[./run.py (INFO)]: Attempting to execute "./tester.py test06.csv"...
+Traceback (most recent call last):
+  File "./tester.py", line 53, in <module>
+    main()
+  File "./tester.py", line 39, in main
+    given_file_data = load_csv(open(given_output_file_path))
+  File "/home/vagrant/.local/lib/python3.6/site-packages/csv_diff/__init__.py", line 18, in load_csv
+    headings = next(fp)
+StopIteration
+-----------------------------------------------------------------------------------------
+[./run.py (INFO)]: Deleting output.csv in case it exists...
+[./run.py (INFO)]: Attempting to execute "./song_analyzer --sortBy=popularity --display=10 --files=top_songs_1999.csv,top_songs_2009.csv,top_songs_2019.csv"...
+Segmentation fault (core dumped)
+[./run.py (INFO)]: Attempting to execute "./tester.py test07.csv"...
+Traceback (most recent call last):
+  File "./tester.py", line 53, in <module>
+    main()
+  File "./tester.py", line 39, in main
+    given_file_data = load_csv(open(given_output_file_path))
+  File "/home/vagrant/.local/lib/python3.6/site-packages/csv_diff/__init__.py", line 18, in load_csv
+    headings = next(fp)
+StopIteration
+
+-----
+(3) Code formatting and structure:
+
+Positive aspects:
+
+- Good formatting and structure of the code that facilitates reading
+  and understanding.
+
+- Good naming conventions for functions and variables.
+
+Improvement opportunities:
+
+-----
+
+GRADE: B-
+MARKS: 72 

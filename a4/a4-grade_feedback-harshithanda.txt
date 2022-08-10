@@ -1,0 +1,35 @@
+SENG 265 -- SUMMER 2022
+ASSIGNMENT #4 EVALUATION
+========================
+
+Student name:   Harshit Handa
+Student netlink id:  harshithanda
+
+-----
+(1) Required files submitted, placed, and named appropriately; code runs
+without errors or warnings.
+
+- Yes, the submitted files are correct, and the code
+  runs successfully without errors or warnings.
+
+-----
+(2) Multiple images generated (and further comments)
+
+- Yes, art images generated are random.
+
+-----
+(3) Code formatting and structure (e.g., use of type hints):
+
+Positive aspects:
+
+- The code makes use of type hints that facilitate readability and 
+  potential maintainability.
+
+Improvement opportunities:
+
+
+
+-----
+
+GRADE: A+
+MARKS: 100  
