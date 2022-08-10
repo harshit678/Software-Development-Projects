@@ -1,4 +1,5 @@
 Objectives of this assignment
+
 • Understand a problem description, along with the role of the provided sample input and output.
 • Use the programming language C to implement a Unix filter―an event processor named
 event_manager.c―without resorting to dynamic memory allocation.
@@ -9,6 +10,7 @@ solution with “messages” given to commits.
 • Test your code against the provided test cases.
 
 This Project: event_manager.c
+
 In this Project, you will learn C by solving a problem involving the iCalendar file format used by
 several calendar programs, such as Google Calendar. Files following the iCalendar specification usually
 have the “.ics” filename suffix. To simplify your solution, the iCal files provided for this term will be less
