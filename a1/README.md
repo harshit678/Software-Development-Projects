@@ -1,12 +1,16 @@
 Objectives of this assignment
 
 • Understand a problem description, along with the role of the provided sample input and output.
+
 • Use the programming language C to implement a Unix filter―an event processor named
 event_manager.c―without resorting to dynamic memory allocation.
+
 • Leverage Unix commands, such as diff, in your coding and testing. The lab instructors will explain
 in the labs how to use the diff command.
+
 • Use git to manage changes in your source code and annotate the continuous evolution of your
 solution with “messages” given to commits.
+
 • Test your code against the provided test cases.
 
 This Project: event_manager.c
